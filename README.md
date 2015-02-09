@@ -38,10 +38,9 @@ When run, the response would be equivalent to:
 ```
 First
 {
-  "value": "this value"
+  "value": "render to json"
 }
 Last
 ```
  
- The test folder contains a working example of its use if you would like further clarification.
- 
+The test source contains a working example if you would like further clarification.

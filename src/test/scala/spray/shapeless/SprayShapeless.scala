@@ -24,7 +24,7 @@ class SprayShapeless extends HttpServiceActor {
         import HListRendering._
         //import HListChunkedRendering._
 
-        complete(StatusCodes.OK, "First\n" :: Example("this value") :: 0 :: "\nLast" :: HNil)
+        complete(StatusCodes.OK, "First\n" :: Example("render to json") :: "\nLast" :: HNil)
 
         //implicit val config = HListRenderingConfiguration(
         //  start = HttpData("-START-\n"),
